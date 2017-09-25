@@ -1,4 +1,3 @@
-will try to read LP file at4500.lpnow solving LP
-variables = 3
-constraints = 3
-bye.
+will try to read LP file atoutput.lpnow solving LP
+variables = 1001
+constraints = 100

@@ -1,6 +1,0 @@
-securities 2 scenarios 3 r 0.1
-today: 6.04545 5.04545 
-scenarioA: 6.1   5 
-scenarioB: 7.2  6.1
-scenarioC: 1.0    2.0
-

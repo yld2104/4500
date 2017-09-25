@@ -6,11 +6,11 @@ from gurobipy import *
 
 def lpsolver(lpfilename, logfilename):
 
-    print "solving LP in file", lpfilename, "with log file", logfilename
+    # print "solving LP in file", lpfilename, "with log file", logfilename
     try:
-        log = open(logfilename,"w")    
+        log = open(logfilename,"w")
     except IOError:
-        print ("Cannot open log file %s\n" % logfilename)
+        # print ("Cannot open log file %s\n" % logfilename)
         return -1
     # Read and solve model
 
@@ -30,7 +30,7 @@ def lpsolver(lpfilename, logfilename):
         log.close()
         return -1
 
-    
+
     # log.write('Optimal objective = %g\n' % model.objVal)
     values = []
     count = 0
@@ -50,11 +50,7 @@ def lpsolver(lpfilename, logfilename):
     #     if math.fabs(v.x) > 0.0000001:
     #         print( v.varname + " = " +str(v.x))
     #         log.write( v.varname + " = " +str(v.x) + "\n")
-
-
-
     log.write("bye.\n")
     log.close()
-
 
     return 0

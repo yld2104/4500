@@ -3,14 +3,13 @@
 import sys
 
 def writelp(lpfilename, prices, numsec, numscen):
-
     try:
         lpfile = open(lpfilename, 'w') # opens the file
     except IOError:
         print("Cannot open LP file %s for writing\n" % lpfilename)
         return 1
 
-    print "now writing LP to file", lpfilename
+    # print "now writing LP to file", lpfilename
     #print prices
     lpfile.write("Minimize ")
     j = 0
@@ -43,8 +42,7 @@ def writelp(lpfilename, prices, numsec, numscen):
         j += 1
     lpfile.write("End\n")
 
-    print "closing lp file"
+    # print "closing lp file"
     lpfile.close()
-      
-    return 0
 
+    return 0

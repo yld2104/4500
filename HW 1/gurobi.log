@@ -1,142 +1,15 @@
 
-Gurobi 6.5.2 (mac64) logging started Sat Sep 23 16:44:09 2017
+Gurobi 7.0.2 (mac64, Python) logging started Sun Sep 24 19:59:33 2017
 
-Read LP format model from file 4500.lp
+Read LP format model from file output.lp
 Reading time = 0.00 seconds
-(null): 3 rows, 4 columns, 8 nonzeros
-Optimize a model with 3 rows, 4 columns and 8 nonzeros
-Coefficient statistics:
-  Matrix range    [1e+00, 8e+00]
-  Objective range [1e+00, 3e+00]
-  Bounds range    [1e+00, 1e+00]
-  RHS range       [0e+00, 0e+00]
-Presolve time: 0.00s
-Presolved: 3 rows, 4 columns, 8 nonzeros
-
-Iteration    Objective       Primal Inf.    Dual Inf.      Time
-       0   -8.5600000e+00   3.860625e+00   0.000000e+00      0s
-       2   -4.1017367e+00   0.000000e+00   0.000000e+00      0s
-
-Solved in 2 iterations and 0.00 seconds
-Optimal objective -4.101736695e+00
-
-Gurobi 6.5.2 (mac64) logging started Sat Sep 23 17:16:40 2017
-
-Read LP format model from file 4500.lp
-Reading time = 0.00 seconds
-(null): 3 rows, 3 columns, 6 nonzeros
-Optimize a model with 3 rows, 3 columns and 6 nonzeros
-Coefficient statistics:
-  Matrix range    [1e+00, 7e+00]
-  Objective range [1e+00, 6e+00]
-  Bounds range    [1e+00, 1e+00]
-  RHS range       [0e+00, 0e+00]
-Presolve removed 0 rows and 1 columns
-Presolve time: 0.00s
-Presolved: 3 rows, 2 columns, 6 nonzeros
-
-Iteration    Objective       Primal Inf.    Dual Inf.      Time
-       0   -6.8870295e+00   1.662465e+00   0.000000e+00      0s
-       2   -5.0454500e+00   0.000000e+00   0.000000e+00      0s
-
-Solved in 2 iterations and 0.00 seconds
-Optimal objective -5.045450000e+00
-
-Gurobi 6.5.2 (mac64) logging started Sat Sep 23 17:45:41 2017
-
-Read LP format model from file 4500.lp
-Reading time = 0.00 seconds
-(null): 3 rows, 3 columns, 9 nonzeros
-Optimize a model with 3 rows, 3 columns and 9 nonzeros
-Coefficient statistics:
-  Matrix range    [1e+00, 7e+00]
-  Objective range [1e+00, 6e+00]
-  Bounds range    [1e+00, 1e+00]
-  RHS range       [0e+00, 0e+00]
-Presolve time: 0.00s
-Presolved: 3 rows, 3 columns, 9 nonzeros
-
-Iteration    Objective       Primal Inf.    Dual Inf.      Time
-       0   -1.2090900e+01   5.375000e+00   0.000000e+00      0s
-       4    0.0000000e+00   0.000000e+00   0.000000e+00      0s
-
-Solved in 4 iterations and 0.00 seconds
-Optimal objective  0.000000000e+00
-
-Gurobi 6.5.2 (mac64) logging started Sat Sep 23 17:50:54 2017
-
-Read LP format model from file 4500.lp
-Reading time = 0.00 seconds
-(null): 3 rows, 3 columns, 9 nonzeros
-Optimize a model with 3 rows, 3 columns and 9 nonzeros
-Coefficient statistics:
-  Matrix range    [1e+00, 7e+00]
-  Objective range [1e+00, 6e+00]
-  Bounds range    [1e+00, 1e+00]
-  RHS range       [0e+00, 0e+00]
-Presolve time: 0.00s
-Presolved: 3 rows, 3 columns, 9 nonzeros
-
-Iteration    Objective       Primal Inf.    Dual Inf.      Time
-       0   -1.2090900e+01   5.375000e+00   0.000000e+00      0s
-       4    0.0000000e+00   0.000000e+00   0.000000e+00      0s
-
-Solved in 4 iterations and 0.00 seconds
-Optimal objective  0.000000000e+00
-
-Gurobi 6.5.2 (mac64) logging started Sat Sep 23 17:51:53 2017
-
-Read LP format model from file 4500.lp
-Reading time = 0.00 seconds
-(null): 3 rows, 3 columns, 9 nonzeros
-Optimize a model with 3 rows, 3 columns and 9 nonzeros
-Coefficient statistics:
-  Matrix range    [1e+00, 7e+00]
-  Objective range [1e+00, 6e+00]
-  Bounds range    [1e+00, 1e+00]
-  RHS range       [0e+00, 0e+00]
-Presolve time: 0.00s
-Presolved: 3 rows, 3 columns, 9 nonzeros
-
-Iteration    Objective       Primal Inf.    Dual Inf.      Time
-       0   -1.2090900e+01   5.375000e+00   0.000000e+00      0s
-       4    0.0000000e+00   0.000000e+00   0.000000e+00      0s
-
-Solved in 4 iterations and 0.00 seconds
-Optimal objective  0.000000000e+00
-
-Gurobi 6.5.2 (mac64) logging started Sat Sep 23 17:52:44 2017
-
-Read LP format model from file 4500.lp
-Reading time = 0.00 seconds
-(null): 3 rows, 3 columns, 9 nonzeros
-Optimize a model with 3 rows, 3 columns and 9 nonzeros
-Coefficient statistics:
-  Matrix range    [1e+00, 7e+00]
-  Objective range [1e+00, 6e+00]
-  Bounds range    [1e+00, 1e+00]
-  RHS range       [0e+00, 0e+00]
-Presolve time: 0.00s
-Presolved: 3 rows, 3 columns, 9 nonzeros
-
-Iteration    Objective       Primal Inf.    Dual Inf.      Time
-       0   -1.2090900e+01   5.375000e+00   0.000000e+00      0s
-       4    0.0000000e+00   0.000000e+00   0.000000e+00      0s
-
-Solved in 4 iterations and 0.00 seconds
-Optimal objective  0.000000000e+00
-
-Gurobi 6.5.2 (mac64) logging started Sat Sep 23 17:57:41 2017
-
-Read LP format model from file 4500.lp
-Reading time = 0.00 seconds
-(null): 10 rows, 21 columns, 210 nonzeros
+: 10 rows, 21 columns, 210 nonzeros
 Optimize a model with 10 rows, 21 columns and 210 nonzeros
 Coefficient statistics:
-  Matrix range    [6e-01, 3e+01]
-  Objective range [1e+00, 3e+01]
-  Bounds range    [1e+00, 1e+00]
-  RHS range       [0e+00, 0e+00]
+  Matrix range     [6e-01, 3e+01]
+  Objective range  [1e+00, 3e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [0e+00, 0e+00]
 Presolve time: 0.00s
 Presolved: 10 rows, 21 columns, 210 nonzeros
 
@@ -147,77 +20,17 @@ Iteration    Objective       Primal Inf.    Dual Inf.      Time
 Solved in 12 iterations and 0.00 seconds
 Optimal objective -1.107914702e+01
 
-Gurobi 6.5.2 (mac64) logging started Sat Sep 23 17:58:01 2017
+Gurobi 7.0.2 (mac64, Python) logging started Sun Sep 24 19:59:40 2017
 
-Read LP format model from file 4500.lp
-Reading time = 0.06 seconds
-(null): 100 rows, 1001 columns, 100100 nonzeros
-Optimize a model with 100 rows, 1001 columns and 100100 nonzeros
-Coefficient statistics:
-  Matrix range    [6e-02, 3e+01]
-  Objective range [1e-01, 3e+01]
-  Bounds range    [1e+00, 1e+00]
-  RHS range       [0e+00, 0e+00]
-
-Concurrent LP optimizer: dual simplex and barrier
-Showing barrier log only...
-
-Presolve time: 0.03s
-Presolved: 100 rows, 1001 columns, 100100 nonzeros
-
-Ordering time: 0.00s
-
-Barrier statistics:
- AA' NZ     : 4.950e+03
- Factor NZ  : 5.050e+03
- Factor Ops : 3.384e+05 (less than 1 second per iteration)
- Threads    : 1
-
-                  Objective                Residual
-Iter       Primal          Dual         Primal    Dual     Compl     Time
-   0   7.33358834e+03 -7.98433856e+03  3.20e-01 3.55e-15  5.70e+00     0s
-   1  -4.41495299e+00 -1.05553962e+03  0.00e+00 2.84e-14  5.03e-01     0s
-   2  -1.26622482e+02 -2.81113284e+02  0.00e+00 1.88e-02  7.36e-02     0s
-   3  -1.96347469e+02 -2.18606189e+02  0.00e+00 7.07e-04  1.06e-02     0s
-   4  -2.06770282e+02 -2.09654440e+02  0.00e+00 3.91e-14  1.37e-03     0s
-   5  -2.08006908e+02 -2.08646625e+02  0.00e+00 2.84e-14  3.04e-04     0s
-   6  -2.08150141e+02 -2.08287571e+02  0.00e+00 3.20e-14  6.54e-05     0s
-   7  -2.08180038e+02 -2.08207690e+02  0.00e+00 2.84e-14  1.32e-05     0s
-   8  -2.08186822e+02 -2.08198558e+02  0.00e+00 3.55e-14  5.58e-06     0s
-   9  -2.08190259e+02 -2.08192601e+02  0.00e+00 2.49e-14  1.11e-06     0s
-  10  -2.08191003e+02 -2.08191051e+02  0.00e+00 3.20e-14  2.31e-08     0s
-  11  -2.08191021e+02 -2.08191021e+02  1.88e-10 3.55e-14  2.31e-11     0s
-
-Barrier solved model in 11 iterations and 0.14 seconds
-Optimal objective -2.08191021e+02
-
-Crossover log...
-
-       0 DPushes remaining with DInf 0.0000000e+00                 0s
-
-       0 PPushes remaining with PInf 0.0000000e+00                 0s
-
-  Push phase complete: Pinf 0.0000000e+00, Dinf 7.9507668e-13      0s
-
-Iteration    Objective       Primal Inf.    Dual Inf.      Time
-       3   -2.0819102e+02   0.000000e+00   0.000000e+00      0s
-       3   -2.0819102e+02   0.000000e+00   0.000000e+00      0s
-
-Solved with barrier
-Solved in 3 iterations and 0.16 seconds
-Optimal objective -2.081910212e+02
-
-Gurobi 6.5.2 (mac64) logging started Sat Sep 23 17:58:31 2017
-
-Read LP format model from file 4500.lp
+Read LP format model from file output.lp
 Reading time = 0.05 seconds
-(null): 100 rows, 1001 columns, 100100 nonzeros
+: 100 rows, 1001 columns, 100100 nonzeros
 Optimize a model with 100 rows, 1001 columns and 100100 nonzeros
 Coefficient statistics:
-  Matrix range    [6e-02, 3e+01]
-  Objective range [1e-01, 3e+01]
-  Bounds range    [1e+00, 1e+00]
-  RHS range       [0e+00, 0e+00]
+  Matrix range     [6e-02, 3e+01]
+  Objective range  [1e-01, 3e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [0e+00, 0e+00]
 
 Concurrent LP optimizer: dual simplex and barrier
 Showing barrier log only...
@@ -231,24 +44,24 @@ Barrier statistics:
  AA' NZ     : 4.950e+03
  Factor NZ  : 5.050e+03
  Factor Ops : 3.384e+05 (less than 1 second per iteration)
- Threads    : 1
+ Threads    : 3
 
                   Objective                Residual
 Iter       Primal          Dual         Primal    Dual     Compl     Time
    0   7.33358834e+03 -7.98433856e+03  3.20e-01 3.55e-15  5.70e+00     0s
-   1  -4.41495299e+00 -1.05553962e+03  0.00e+00 2.84e-14  5.03e-01     0s
+   1  -4.41495299e+00 -1.05553962e+03  0.00e+00 3.20e-14  5.03e-01     0s
    2  -1.26622482e+02 -2.81113284e+02  0.00e+00 1.88e-02  7.36e-02     0s
    3  -1.96347469e+02 -2.18606189e+02  0.00e+00 7.07e-04  1.06e-02     0s
-   4  -2.06770282e+02 -2.09654440e+02  0.00e+00 3.91e-14  1.37e-03     0s
-   5  -2.08006908e+02 -2.08646625e+02  0.00e+00 2.84e-14  3.04e-04     0s
-   6  -2.08150141e+02 -2.08287571e+02  0.00e+00 3.20e-14  6.54e-05     0s
-   7  -2.08180038e+02 -2.08207690e+02  0.00e+00 2.84e-14  1.32e-05     0s
-   8  -2.08186822e+02 -2.08198558e+02  0.00e+00 3.55e-14  5.58e-06     0s
-   9  -2.08190259e+02 -2.08192601e+02  0.00e+00 2.49e-14  1.11e-06     0s
-  10  -2.08191003e+02 -2.08191051e+02  0.00e+00 3.20e-14  2.31e-08     0s
-  11  -2.08191021e+02 -2.08191021e+02  1.88e-10 3.55e-14  2.31e-11     0s
+   4  -2.05320924e+02 -2.10779325e+02  0.00e+00 6.54e-05  2.60e-03     0s
+   5  -2.07296038e+02 -2.09014856e+02  0.00e+00 3.20e-14  8.18e-04     0s
+   6  -2.07893782e+02 -2.08498590e+02  0.00e+00 3.20e-14  2.88e-04     0s
+   7  -2.08140665e+02 -2.08236635e+02  0.00e+00 2.84e-14  4.57e-05     0s
+   8  -2.08178998e+02 -2.08196490e+02  0.00e+00 2.84e-14  8.32e-06     0s
+   9  -2.08189147e+02 -2.08192536e+02  0.00e+00 2.84e-14  1.61e-06     0s
+  10  -2.08190943e+02 -2.08191817e+02  0.00e+00 2.49e-14  4.16e-07     0s
+  11  -2.08191021e+02 -2.08191022e+02  0.00e+00 3.55e-14  3.06e-10     0s
 
-Barrier solved model in 11 iterations and 0.08 seconds
+Barrier solved model in 11 iterations and 0.06 seconds
 Optimal objective -2.08191021e+02
 
 Crossover log...
@@ -264,47 +77,65 @@ Iteration    Objective       Primal Inf.    Dual Inf.      Time
        3   -2.0819102e+02   0.000000e+00   0.000000e+00      0s
 
 Solved with barrier
-Solved in 3 iterations and 0.10 seconds
+Solved in 3 iterations and 0.07 seconds
 Optimal objective -2.081910212e+02
 
-Gurobi 6.5.2 (mac64) logging started Sun Sep 24 18:55:56 2017
+Gurobi 7.0.2 (mac64, Python) logging started Sun Sep 24 20:07:48 2017
 
-Read LP format model from file 4500.lp
-Reading time = 0.00 seconds
-(null): 3 rows, 3 columns, 9 nonzeros
-Optimize a model with 3 rows, 3 columns and 9 nonzeros
+Read LP format model from file output.lp
+Reading time = 0.04 seconds
+: 100 rows, 1001 columns, 100100 nonzeros
+Optimize a model with 100 rows, 1001 columns and 100100 nonzeros
 Coefficient statistics:
-  Matrix range    [1e+00, 7e+00]
-  Objective range [1e+00, 6e+00]
-  Bounds range    [1e+00, 1e+00]
-  RHS range       [0e+00, 0e+00]
-Presolve time: 0.00s
-Presolved: 3 rows, 3 columns, 9 nonzeros
+  Matrix range     [6e-02, 3e+01]
+  Objective range  [1e-01, 3e+01]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [0e+00, 0e+00]
+
+Concurrent LP optimizer: dual simplex and barrier
+Showing barrier log only...
+
+Presolve time: 0.02s
+Presolved: 100 rows, 1001 columns, 100100 nonzeros
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 4.950e+03
+ Factor NZ  : 5.050e+03
+ Factor Ops : 3.384e+05 (less than 1 second per iteration)
+ Threads    : 3
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   7.33358834e+03 -7.98433856e+03  3.20e-01 3.55e-15  5.70e+00     0s
+   1  -4.41495299e+00 -1.05553962e+03  0.00e+00 3.20e-14  5.03e-01     0s
+   2  -1.26622482e+02 -2.81113284e+02  0.00e+00 1.88e-02  7.36e-02     0s
+   3  -1.96347469e+02 -2.18606189e+02  0.00e+00 7.07e-04  1.06e-02     0s
+   4  -2.05320924e+02 -2.10779325e+02  0.00e+00 6.54e-05  2.60e-03     0s
+   5  -2.07296038e+02 -2.09014856e+02  0.00e+00 3.20e-14  8.18e-04     0s
+   6  -2.07893782e+02 -2.08498590e+02  0.00e+00 3.20e-14  2.88e-04     0s
+   7  -2.08140665e+02 -2.08236635e+02  0.00e+00 2.84e-14  4.57e-05     0s
+   8  -2.08178998e+02 -2.08196490e+02  0.00e+00 2.84e-14  8.32e-06     0s
+   9  -2.08189147e+02 -2.08192536e+02  0.00e+00 2.84e-14  1.61e-06     0s
+  10  -2.08190943e+02 -2.08191817e+02  0.00e+00 2.49e-14  4.16e-07     0s
+  11  -2.08191021e+02 -2.08191022e+02  0.00e+00 3.55e-14  3.06e-10     0s
+
+Barrier solved model in 11 iterations and 0.06 seconds
+Optimal objective -2.08191021e+02
+
+Crossover log...
+
+       0 DPushes remaining with DInf 0.0000000e+00                 0s
+
+       0 PPushes remaining with PInf 0.0000000e+00                 0s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 7.9507668e-13      0s
 
 Iteration    Objective       Primal Inf.    Dual Inf.      Time
-       0   -1.2090900e+01   5.375000e+00   0.000000e+00      0s
-       4    0.0000000e+00   0.000000e+00   0.000000e+00      0s
+       3   -2.0819102e+02   0.000000e+00   0.000000e+00      0s
+       3   -2.0819102e+02   0.000000e+00   0.000000e+00      0s
 
-Solved in 4 iterations and 0.00 seconds
-Optimal objective  0.000000000e+00
-
-Gurobi 6.5.2 (mac64) logging started Sun Sep 24 19:04:53 2017
-
-Read LP format model from file 4500.lp
-Reading time = 0.00 seconds
-(null): 3 rows, 3 columns, 9 nonzeros
-Optimize a model with 3 rows, 3 columns and 9 nonzeros
-Coefficient statistics:
-  Matrix range    [1e+00, 7e+00]
-  Objective range [1e+00, 6e+00]
-  Bounds range    [1e+00, 1e+00]
-  RHS range       [0e+00, 0e+00]
-Presolve time: 0.00s
-Presolved: 3 rows, 3 columns, 9 nonzeros
-
-Iteration    Objective       Primal Inf.    Dual Inf.      Time
-       0   -1.2090900e+01   5.375000e+00   0.000000e+00      0s
-       4    0.0000000e+00   0.000000e+00   0.000000e+00      0s
-
-Solved in 4 iterations and 0.00 seconds
-Optimal objective  0.000000000e+00
+Solved with barrier
+Solved in 3 iterations and 0.08 seconds
+Optimal objective -2.081910212e+02
