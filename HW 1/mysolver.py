@@ -52,5 +52,5 @@ def lpsolver(lpfilename, logfilename):
     #         log.write( v.varname + " = " +str(v.x) + "\n")
     log.write("bye.\n")
     log.close()
-
-    return 0
+    print "No Abitrage!"
+    return -2

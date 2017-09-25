@@ -55,25 +55,29 @@ lpwritecode = writelp(sys.argv[2], p, numsec, numscen)
 # print "wrote LP to file", sys.argv[2],"with code", lpwritecode
 
 #now solve lp
-weights = pd.DataFrame(lpsolver(sys.argv[2], "test.log"))
-df_price = pd.DataFrame(np.asarray(p).reshape([numscen +1 , numsec+1]))
+weights = lpsolver(sys.argv[2], "test.log")
+if not isinstance(weights, int):
+    weights = pd.DataFrame(weights)
+    df_price = pd.DataFrame(np.asarray(p).reshape([numscen +1 , numsec+1]))
 
-n_sim = 100
-trials = np.zeros(n_sim)
-for sim in range(n_sim):
-    perturb = pd.DataFrame(np.random.uniform(0.95,1.05, (numscen , numsec)))
-    perturb.index = [i+1 for i in perturb.index]
-    perturb.columns = [i+1 for i in perturb.columns]
-    temp = df_price[df_price.columns[1:]].iloc[df_price.index[1:]]
-    perturbed_price = temp * perturb
-    perturbed_price = pd.concat([df_price[[df_price.columns[0]]].iloc[1:],perturbed_price], axis = 1)
-    objectives = pd.DataFrame(np.dot(perturbed_price.values, weights.values))
-    score = objectives <= 0
-    trials[sim] = int(score.sum().values)
-trials = pd.DataFrame(trials).astype(int)
-# trials.plot(kind = 'hist', title = 'Total Score for ' + str(n_sim) + ' Simulations',  )
-n_bin = len(trials[0].unique())
-trials.hist(bins = n_bin)
-plt.title('Total Score for ' + str(n_sim) + ' Simulations')
-plt.show()
+    n_sim = 100
+    trials = np.zeros(n_sim)
+    for sim in range(n_sim):
+        perturb = pd.DataFrame(np.random.uniform(0.95,1.05, (numscen , numsec)))
+        perturb.index = [i+1 for i in perturb.index]
+        perturb.columns = [i+1 for i in perturb.columns]
+        #print df_price[df_price.columns[1:]]
+        #print df_price[df_price.columns[1:]].iloc[df_price.index[1:]]
+        temp = df_price[df_price.columns[1:]].iloc[df_price.index[1:]]
+        perturbed_price = temp * perturb
+        perturbed_price = pd.concat([df_price[[df_price.columns[0]]].iloc[1:],perturbed_price], axis = 1)
+        objectives = pd.DataFrame(np.dot(perturbed_price.values, weights.values))
+        score = objectives <= 0
+        trials[sim] = int(score.sum().values)
+    trials = pd.DataFrame(trials).astype(int)
+    # trials.plot(kind = 'hist', title = 'Total Score for ' + str(n_sim) + ' Simulations',  )
+    n_bin = len(trials[0].unique())
+    trials.hist(bins = n_bin)
+    plt.title('Total Score for ' + str(n_sim) + ' Simulations')
+    plt.show()
 # print "solved LP at", sys.argv[2],"with code", lpsolvecode

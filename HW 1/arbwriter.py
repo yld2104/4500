@@ -45,4 +45,5 @@ def writelp(lpfilename, prices, numsec, numscen):
     # print "closing lp file"
     lpfile.close()
 
+
     return 0
