@@ -18,6 +18,9 @@ int generatehist(char *histfilename, int iterations, double *portfolio, double *
 		printf("no memory\n"); retcode = 400; goto BACK;
 	}
 	bins = (int *)calloc((1+numscen), sizeof(int));
+	if (bins == NULL){
+		printf("no memory\n"); retcode = 400; goto BACK;
+	}
 	for (j = 0; j <= numscen; j++){
 	  bins[j] = 0; 
 	  //printf("%d \n", bins[j]);
