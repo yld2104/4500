@@ -1,0 +1,17 @@
+Solving outdata.lp
+variables = 11
+constraints = 3
+Optimal objective = -6.60096
+11 nonzero variables in solution
+x0 = 1.0
+x1 = -1.0
+x2 = 1.0
+x3 = 0.521090124459
+x4 = -0.562311473773
+x5 = 1.0
+x6 = 0.25279339323
+x7 = -1.0
+x8 = -1.0
+x9 = 1.0
+x10 = 1.0
+bye.
