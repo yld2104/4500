@@ -1,0 +1,2 @@
+#define NOMEMORY 100
+#define CANNOTOPEN 200

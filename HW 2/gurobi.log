@@ -1027,3 +1027,66 @@ Iteration    Objective       Primal Inf.    Dual Inf.      Time
 
 Solved in 5 iterations and 0.00 seconds
 Optimal objective -6.600957627e+00
+
+Gurobi 6.5.2 (mac64) logging started Fri Oct  6 14:45:45 2017
+
+Read LP format model from file outdata.lp
+Reading time = 0.00 seconds
+(null): 3 rows, 11 columns, 33 nonzeros
+Optimize a model with 3 rows, 11 columns and 33 nonzeros
+Coefficient statistics:
+  Matrix range    [8e-01, 2e+01]
+  Objective range [1e+00, 2e+01]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [0e+00, 0e+00]
+Presolve time: 0.00s
+Presolved: 3 rows, 11 columns, 33 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -1.1995100e+02   9.361187e+00   0.000000e+00      0s
+       5   -6.6009576e+00   0.000000e+00   0.000000e+00      0s
+
+Solved in 5 iterations and 0.00 seconds
+Optimal objective -6.600957627e+00
+
+Gurobi 6.5.2 (mac64) logging started Wed Oct 11 11:27:54 2017
+
+Read LP format model from file outdata.lp
+Reading time = 0.00 seconds
+(null): 3 rows, 11 columns, 33 nonzeros
+Optimize a model with 3 rows, 11 columns and 33 nonzeros
+Coefficient statistics:
+  Matrix range    [8e-01, 2e+01]
+  Objective range [1e+00, 2e+01]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [0e+00, 0e+00]
+Presolve time: 0.00s
+Presolved: 3 rows, 11 columns, 33 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -1.1995100e+02   9.361187e+00   0.000000e+00      0s
+       5   -6.6009576e+00   0.000000e+00   0.000000e+00      0s
+
+Solved in 5 iterations and 0.00 seconds
+Optimal objective -6.600957627e+00
+
+Gurobi 6.5.2 (mac64) logging started Wed Oct 11 11:33:26 2017
+
+Read LP format model from file outdata.lp
+Reading time = 0.00 seconds
+(null): 3 rows, 11 columns, 33 nonzeros
+Optimize a model with 3 rows, 11 columns and 33 nonzeros
+Coefficient statistics:
+  Matrix range    [8e-01, 2e+01]
+  Objective range [1e+00, 2e+01]
+  Bounds range    [1e+00, 1e+00]
+  RHS range       [0e+00, 0e+00]
+Presolve time: 0.00s
+Presolved: 3 rows, 11 columns, 33 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0   -1.1995100e+02   9.361187e+00   0.000000e+00      0s
+       5   -6.6009576e+00   0.000000e+00   0.000000e+00      0s
+
+Solved in 5 iterations and 0.00 seconds
+Optimal objective -6.600957627e+00
